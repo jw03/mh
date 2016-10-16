@@ -7,6 +7,9 @@ gem 'rails', '4.0.8'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'spork', github: 'sporkrb/spork'
+	gem 'spork-rails'
 end
 
 group :test do
